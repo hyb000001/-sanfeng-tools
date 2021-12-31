@@ -1,0 +1,36 @@
+{
+  "name": "sftools",
+  "version": "1.0.0",
+  "description": "前端工具库",
+  "main": "index.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyb000001/SFTools.git"
+  },
+  "keywords": [
+    "SFTools",
+    "Rollup",
+    "TypeScript"
+  ],
+  "author": "胡三疯",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyb000001/SFTools/issues"
+  },
+  "homepage": "https://github.com/hyb000001/SFTools#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.62.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4"
+  }
+}
