@@ -1,4 +1,4 @@
-import isColor from './is-color';
+import { validateIdCard } from './validate';
 export {
-  isColor,
+  validateIdCard,
 };
