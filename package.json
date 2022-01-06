@@ -1,35 +1,39 @@
 {
-  "name": "sftools",
-  "version": "1.0.0",
+  "name": "sanfeng-tools",
+  "version": "0.0.4",
   "description": "前端工具库",
   "main": "index.js",
   "browser": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "cp package.json README.md dist",
+    "build": "rollup -c && npm run copy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyb000001/SFTools.git"
+    "url": "git+https://github.com/ybin-hu/sanfeng-tools.git"
   },
   "keywords": [
-    "SFTools",
+    "sanfeng-tools",
     "Rollup",
     "TypeScript"
   ],
   "author": "胡三疯",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hyb000001/SFTools/issues"
+    "url": "https://github.com/ybin-hu/sanfeng-tools/issues"
   },
-  "homepage": "https://github.com/hyb000001/SFTools#readme",
+  "homepage": "https://github.com/ybin-hu/sanfeng-tools#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-typescript": "^8.3.0",
+    "commander": "^8.3.0",
     "rollup": "^2.62.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript": "^1.0.1",
+    "shelljs": "^0.8.4",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4"
   }
